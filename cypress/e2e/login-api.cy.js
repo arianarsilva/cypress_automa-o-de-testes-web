@@ -9,7 +9,7 @@ describe('Testes em API', () => {
                 expect(response.status).to.eq(200);
             });
         })
-        
+
         it('Deve verificar se o token de autenticação é retornado após login via POST na API', () => {
             cy.get('@token').should('exist');
         })
