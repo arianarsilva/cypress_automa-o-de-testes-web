@@ -79,4 +79,7 @@ jobs:
 
            cypress/e2e/dashboard.cy.js
 
+           cypress/e2e/cadastro-especialista.cy.js
+
+
          wait-on: 'http://localhost:3000,http://localhost:8080'
